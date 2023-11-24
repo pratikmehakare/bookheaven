@@ -1,0 +1,30 @@
+/* Services.css */
+.services-page {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .services-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .services-content h2 {
+    margin-bottom: 30px;
+  }
+  
+  .service-item {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .service-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  

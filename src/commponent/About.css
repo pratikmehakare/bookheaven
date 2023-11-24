@@ -1,0 +1,22 @@
+/* AboutUs.css */
+.about-us {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-us-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  

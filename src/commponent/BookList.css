@@ -1,0 +1,69 @@
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+    color: #3498db;
+  }
+  25%, 75% {
+    opacity: 0;
+    color: #e74c3c;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+}
+
+.heading1 {
+  animation: blink 2s infinite, marquee 50s linear infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  margin-left: 15px;
+}
+
+.booklist {
+  display: flex;
+  flex-wrap: wrap; /* Allow books to wrap to the next line on smaller screens */
+  margin-top: auto;
+}
+
+.heading3 {
+  display: flex;
+  margin-left: 17px;
+}
+
+.heading2 {
+  display: flex;
+  margin-left: 17px;
+}
+
+.set2 {
+  background-color: aqua;
+  background-size: 150%;
+  background-blend-mode: difference;
+ 
+}
+
+.set2book {
+  background-color: #e74c3c;
+}
+
+.set3 {
+  margin-bottom: 25px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .heading1 {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .set2 {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+}
